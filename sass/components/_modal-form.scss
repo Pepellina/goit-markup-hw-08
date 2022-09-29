@@ -1,0 +1,156 @@
+.submit-modal {
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    line-height: 1.88;
+    border: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 52px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: background-color var(--animation-cubik);
+
+        &:hover,
+        &:focus {
+            background-color: #188CE8;}
+}
+
+
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+        &:nth-child(5) {
+            margin-bottom: 20px;}
+
+        textarea {
+            width: 448px;
+            height: 120px;
+            padding: 12px 16px;
+            resize: none;
+
+            &:focus{
+                border-color: var(--accent-color);
+                outline: none;}}
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+
+    p {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--primary-color-text);}
+}
+
+.modal-label {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: var(--secondary-color-text);
+    margin-bottom: 4px;
+}
+
+.modal-input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 41px;
+    padding-right: 39px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    transition: border-color var(--animation-cubik);
+
+    &:focus {
+        border-color: var(--accent-color);
+        outline: none;
+    
+        &+.icon-user-name {
+            fill: var(--accent-color);}
+        &+.icon-user-tel {
+            fill: var(--accent-color);}
+        &+.icon-user-mail {
+            fill: var(--accent-color);}}
+}
+
+.box-icon-name, .box-icon-tel, .box-icon-mail{
+    position: relative;
+}
+
+.icon-user-name,
+.icon-user-tel,
+.icon-user-mail {
+    content: '';
+    fill: #000000;
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+    transform: translateX(-50%);
+    transition: fill var(--animation-cubik);
+}
+
+.icon-policy {
+    content: '';
+    background-size: contain;
+    left: 22px;
+    fill: #000000;
+    position: absolute;
+
+    .checkbox-policy~& {
+        opacity: 1;
+        transition: opacity var(--animation-cubik);}
+
+    .checkbox-policy:checked~& {
+        opacity: 0;}
+}
+
+.icon-policy-check {
+    content: '';
+    background-size: contain;
+    margin-right: 7px;
+    fill: var(--accent-color);
+
+    .checkbox-policy~& {
+        opacity: 0;
+        transition: opacity var(--animation-cubik);}
+
+    .checkbox-policy:checked~& {
+        opacity: 1;}
+}
+
+.checkbox-policy {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.agreement-link {
+    color: var(--accent-color);
+}
+
+.box-agreement {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color-text);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

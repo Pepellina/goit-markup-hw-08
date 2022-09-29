@@ -1,0 +1,32 @@
+@media screen and (min-width:768px){
+    .logo-header{
+        margin-right: 88px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .logo-header {
+        margin-right: 93px;
+        font-size: 26px;
+        line-height: 31px;
+
+    }
+}
+
+
+
+
+.logo-header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    display: inline-block;
+}
+
+
+.logo-header__logo-part {
+    color: #000000;
+}

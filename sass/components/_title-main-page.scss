@@ -1,0 +1,17 @@
+.title-main-page {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color-text);
+    margin-bottom: 30px;
+}
+
+
+@media screen and (min-width:1200px){
+    .title-main-page{
+    font-size: 36px;
+    line-height: 1.66;
+    margin-bottom: 50px;}
+}

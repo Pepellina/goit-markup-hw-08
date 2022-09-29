@@ -1,0 +1,20 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/base.scss";
+@import "./base/section";
+@import "./base/container";
+
+@import "./components/logo-header";
+@import "./layout/header";
+@import "./components/mobile-modal";
+@import "./layout/banner";
+@import "./layout/benefits";
+@import "./layout/section-img-work";
+@import "./layout/team-section";
+@import "./components/title-main-page";
+@import "./layout/clients";
+@import "./layout/footer";
+
+@import "./components/backdrop";
+@import "./components/modal-form";
+@import "./components/modal-window";
