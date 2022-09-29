@@ -615,6 +615,9 @@ img {
 .section-team {
   background-color: #F5F4FA;
 }
+.section-team {
+  padding-bottom: 0;
+}
 
 .item-team__foto {
   width: 100%;
@@ -622,6 +625,7 @@ img {
 
 .box-team {
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .item-team__box-person {
@@ -652,6 +656,7 @@ img {
   }
   .box-team {
     padding-top: 94px;
+    padding-bottom: 94px;
   }
   .item-team__connect-list {
     padding-bottom: 30px;
@@ -852,7 +857,6 @@ img {
   background-color: #2F303A;
   color: rgba(255, 255, 255, 0.6);
   height: 50px;
-  width: 450px;
   padding-left: 16px;
   margin-bottom: 20px;
 }
@@ -895,6 +899,12 @@ img {
   .adderss-footer {
     margin-top: 20px;
     margin-bottom: 60px;
+  }
+  .label-form {
+    width: 360px;
+  }
+  .input-form {
+    width: 100%;
   }
   .network-footer {
     margin-bottom: 60px;
