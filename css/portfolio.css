@@ -1,5 +1,5 @@
 :root {
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --primary-color-text: #212121;
@@ -382,7 +382,7 @@ img {
   cursor: pointer;
   letter-spacing: 0.03em;
   color: var(--primary-color-text);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   display: inline-block;
   padding: 6px 20px;
   border: var(--accent-color);
@@ -390,7 +390,7 @@ img {
   transition: color var(--animation-cubik), background-color var(--animation-cubik), box-shadow var(--animation-cubik);
 }
 .filter-button:hover, .filter-button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -410,7 +410,7 @@ img {
 }
 
 .item-list-examples {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   flex-basis: calc((100% - 60px) / 3);
 }
 
@@ -430,9 +430,9 @@ img {
 
 .text-examplex {
   padding: 20px 24px;
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .name-examplex {
@@ -455,7 +455,7 @@ img {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 63px 24px;
 }
 
