@@ -75,6 +75,7 @@ img {
 .container {
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -269,7 +270,7 @@ img {
 
 .menu-page {
   padding-top: 48px;
-  margin-bottom: 240px;
+  margin-bottom: 250px;
 }
 
 .menu-page__item {
