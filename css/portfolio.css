@@ -61,11 +61,13 @@ img {
 
 @media screen and (min-width: 480px) {
   section {
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   section {
+    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -113,7 +115,7 @@ img {
   justify-content: space-between;
 }
 
-.top-header .box__header {
+.top-header {
   display: flex;
   border-bottom: 1px solid #ececec;
 }
@@ -267,7 +269,7 @@ img {
 
 .menu-page {
   padding-top: 48px;
-  margin-bottom: 306px;
+  margin-bottom: 240px;
 }
 
 .menu-page__item {

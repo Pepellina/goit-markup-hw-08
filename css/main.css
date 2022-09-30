@@ -61,11 +61,13 @@ img {
 
 @media screen and (min-width: 480px) {
   section {
+    padding-top: 60px;
     padding-bottom: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   section {
+    padding-top: 94px;
     padding-bottom: 94px;
   }
 }
@@ -139,7 +141,7 @@ img {
   justify-content: space-between;
 }
 
-.top-header .box__header {
+.top-header {
   display: flex;
   border-bottom: 1px solid #ececec;
 }
@@ -267,7 +269,7 @@ img {
 
 .menu-page {
   padding-top: 48px;
-  margin-bottom: 306px;
+  margin-bottom: 240px;
 }
 
 .menu-page__item {
@@ -378,18 +380,17 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .banner {
-  background-color: #2F303A;
+  background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgraund/backgraund-moble.jpg);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
   height: min-content;
   background-repeat: no-repeat;
   background-position: center;
@@ -409,7 +410,7 @@ img {
   border: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: background-color var(--animation-cubik);
   padding: 10px 24px;
   display: flex;
@@ -418,7 +419,7 @@ img {
   margin-right: auto;
 }
 .banner__button:hover, .banner__button:focus {
-  background-color: #188CE8;
+  background-color: #188ce8;
 }
 
 @media screen and (min-width: 480px) {
@@ -615,17 +616,9 @@ img {
 .section-team {
   background-color: #f5f4fa;
 }
-.section-team {
-  padding-bottom: 0;
-}
 
 .item-team__foto {
   width: 100%;
-}
-
-.box-team {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .item-team__box-person {
@@ -653,10 +646,6 @@ img {
 @media screen and (min-width: 1200px) {
   .item-team {
     flex-basis: calc((100% - 90px) / 4);
-  }
-  .box-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
   }
   .item-team__connect-list {
     padding-bottom: 30px;
@@ -1028,7 +1017,7 @@ img {
   margin-bottom: 20px;
 }
 .form-box textarea {
-  width: 370px;
+  width: 290px;
   height: 120px;
   padding: 12px 16px;
   resize: none;
@@ -1196,7 +1185,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 450px;
+  width: 370px;
   height: 609px;
   padding: 40px;
   background-color: #ffffff;

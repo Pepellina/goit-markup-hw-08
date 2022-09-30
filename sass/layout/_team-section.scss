@@ -56,17 +56,11 @@
 
 .section-team {
   background-color: #f5f4fa;
-  & {
-    padding-bottom: 0;
-  }
 }
 .item-team__foto {
   width: 100%;
 }
-.box-team {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .item-team__box-person {
   margin-top: 30px;
 }
@@ -94,11 +88,6 @@
 @media screen and (min-width: 1200px) {
   .item-team {
     flex-basis: calc((100% - 90px) / 4);
-  }
-
-  .box-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
   }
 
   .item-team__connect-list {
